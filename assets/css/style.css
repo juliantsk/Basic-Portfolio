@@ -1,0 +1,23 @@
+body {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif #777777;
+    background-color: #ffffff;
+    border-color: #dddddd
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: #666666;
+}
+
+h1.header {}
+
+ul.header {}
+
+p.footer {}
+
+img.profile {}
