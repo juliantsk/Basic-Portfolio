@@ -131,12 +131,18 @@ img {
     float: left;
 }
 
+
+/* About page */
+
 img.profile {
     max-width: 40%;
     float: left;
     padding: 15px;
     padding-left: 0px;
 }
+
+
+/* END About page */
 
 
 /* Portfolio page */
@@ -176,6 +182,36 @@ h2.desc {
 
 
 /* Contact page */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    width: fit-content;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
+}
 
 
 /* END main styling */
