@@ -126,7 +126,7 @@ h1.header {
 }
 
 img {
-    width: 33.3%;
+    max-width: 33.3%;
     height: auto;
     float: left;
 }
@@ -136,6 +136,32 @@ img.profile {
     float: left;
     padding: 15px;
     padding-left: 0px;
+}
+
+div.portfolio {
+    margin: 5px;
+    border: 0px;
+    float: left;
+    width: 180px;
+}
+
+div.portfolio:hover {
+    border 1px solid #777777;
+}
+
+div.portfolio img {
+    max-width: 100%;
+}
+
+
+/* Descriptions not working yet.  */
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 130px;
 }
 
 
